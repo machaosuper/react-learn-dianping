@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "微软雅黑","Times New Roman",Georgia,Serif;
+    }
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+.clear-fix::after{
+    display: table;
+    content: '';
+    clear: both;
+	
+}
+// .clear-fix{
+//     display: inline-block;
+//     zoom: 1;
+// 	overflow:hidden;
+// 	&::after{
+// 		display: block;
+// 		content: '.';
+// 		height: 0;
+// 		line-height: 0;
+// 		clear: both;
+// 		visibility: hidden;
+// 	}
+// }
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
